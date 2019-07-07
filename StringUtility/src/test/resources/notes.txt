@@ -1,0 +1,9 @@
+https://cucumber.io/docs/guides/10-minute-tutorial/
+https://stackoverflow.com/questions/41158051/getting-does-not-have-a-matching-glue-code-error-for-empty-fields-using-cucumb?rq=1
+http://junit.sourceforge.net/javadoc/org/junit/Assert.html
+https://cucumber.io/docs/cucumber/cucumber-expressions/
+https://www.youtube.com/watch?v=TUX7ntXlVkc&list=PL6tu16kXT9PpteusHGISu_lHcV6MbBtA6
+https://techie-jackie-blogs.blogspot.com/2016/05/running-cucumber-feature-file-in-eclipse.html
+https://maven.apache.org/plugins/maven-compiler-plugin/examples/compile-using-different-jdk.html
+https://examples.javacodegeeks.com/core-java/junit/junit-cucumber-example/
+https://automationrhapsody.com/introduction-to-cucumber-and-bdd-with-examples/
