@@ -10,6 +10,18 @@ import cucumber.api.java.en.When;
 public class StepDefs {
 	private String result = "";
 	private static final Logger log = LogManager.getLogger();
+
+	@When("I provide a raw string: {string}, a padding direction: {string}, and an overall length: {int}")
+	public void i_provide_a_raw_string_a_padding_direction_and_an_overall_length(String input, String direction, Integer length) {
+		result = "left".contentEquals(direction) ? Pad.left(input, length) : Pad.right(input, length);
+		/**
+		 * DUE TO ISSUES WITH GHERKIN  THE FOLLOWING HACKISH WORKAROUND IS REQUIRED.
+		 * 
+		 * See: https://stackoverflow.com/questions/12914618/capture-trailing-whitespace-in-gherkin-tables
+		 */
+		result = "'" + result + "'";
+		log.debug("result: {} -> input: {} | direction: {} | length: {}", result, input, direction, length);
+	}
 	
 	@When("I provide a raw string: {string}, a padding direction: {string}, a padding character: {string}, and an overall length: {int}")
 	public void i_provide_a_raw_string_a_padding_direction_a_padding_character_and_an_overall_length(String input, String direction, String character, Integer length) {

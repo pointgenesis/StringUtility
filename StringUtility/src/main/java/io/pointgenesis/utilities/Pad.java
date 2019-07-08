@@ -16,6 +16,18 @@ public class Pad {
 	 */
 	private Pad() {
 	}
+
+	/**
+	 * Given an unformatted {@code value}, then format by left padding the string, {@code value}, using spaces as the padding character, for
+	 * an overall length of {@code length} bytes.
+	 * 
+	 * @param value the given string.
+	 * @param length the overall length of the new string.
+	 * @return the formatted string.
+	 */
+	public static final String left(String value, int length) {
+		return pad("%1$", value, ' ', length);
+	}
 	
 	/**
 	 * Given an unformatted {@code value}, then format by left padding the string, {@code value}, with character, {@code c}, for
@@ -27,7 +39,19 @@ public class Pad {
 	 * @return the formatted string.
 	 */
 	public static final String left(String value, char c, int length) {
-		return Pad.pad("%1$", value, c, length);
+		return pad("%1$", value, c, length);
+	}
+
+	/**
+	 * Given an unformatted {@code value}, then format by right padding the string, {@code value}, using spaces as the padding character, for
+	 * an overall length of {@code length} bytes.
+	 * 
+	 * @param value the given string.
+	 * @param length the overall length of the new string.
+	 * @return the formatted string.
+	 */
+	public static final String right(String value, int length) {
+		return pad("%1$-", value, ' ', length);
 	}
 	
 	/**
@@ -40,7 +64,7 @@ public class Pad {
 	 * @return the formatted string.
 	 */
 	public static final String right(String value, char c, int length) {
-		return Pad.pad("%1$-", value, c, length);
+		return pad("%1$-", value, c, length);
 	}
 	
 	/**

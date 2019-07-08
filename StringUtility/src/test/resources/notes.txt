@@ -7,3 +7,5 @@ https://techie-jackie-blogs.blogspot.com/2016/05/running-cucumber-feature-file-i
 https://maven.apache.org/plugins/maven-compiler-plugin/examples/compile-using-different-jdk.html
 https://examples.javacodegeeks.com/core-java/junit/junit-cucumber-example/
 https://automationrhapsody.com/introduction-to-cucumber-and-bdd-with-examples/
+https://www.toolsqa.com/cucumber/junit-test-runner-class/
+https://stackoverflow.com/questions/12914618/capture-trailing-whitespace-in-gherkin-tables
