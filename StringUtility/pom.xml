@@ -13,7 +13,7 @@
 		<cucumber.version>4.2.6</cucumber.version>
 		<selenium.version>2.48.2</selenium.version>
 		<junit.version>4.12</junit.version>
-		<log4j2.version>2.11.2</log4j2.version>
+		<log4j2.version>2.16.0</log4j2.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
